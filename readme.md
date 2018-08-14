@@ -1,6 +1,3 @@
-# readme
+go to https://shuheilocale.github.io/mymixmusics/
 
-## list
-* 3rub5
-* アスタあがあるさ
 
