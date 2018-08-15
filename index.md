@@ -1,7 +1,7 @@
 --------------
 **New release!** <br>
 
-アスタあがあるさ<br>
+[アスタあがあるさ](https://soundcloud.com/user-266059752/wpsuv1omfqn0)<br>
 ![3rub5](img/aste_thumb.jpg)
 
 Special thanks : Toyameg and iSOP
