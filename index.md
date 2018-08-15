@@ -110,6 +110,9 @@ Special thanks : Toyameg and iSOP
 
 ### Donation
 
-bitcoin address:32YXiUXNyWKwxyBLuarWqmpWtuWwT74t29
+BTC : 32YXiUXNyWKwxyBLuarWqmpWtuWwT74t29<br>
+BCH : 1299aoiFbxuthAMGDM6xAL1uFEkGoRYUFj<br>
+ETH : 0x0c1191e24c473865c8b3708ac392b1468148c88c<br>
+XRP : Tag : 107822031, Addr : rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh
 
 
