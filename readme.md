@@ -1,3 +1,3 @@
-go to https://shuheilocale.github.io/biography/
+go to https://shuheilocale.github.io/Biography/
 
 
