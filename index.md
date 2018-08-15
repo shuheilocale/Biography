@@ -4,7 +4,7 @@
 アスタあがあるさ<br>
 ![3rub5](img/aste_thumb.jpg)
 
-Special thanks : Toyameg and DJ iSOP
+Special thanks : Toyameg and iSOP
 
 --------------
 
@@ -61,7 +61,7 @@ Special thanks : Toyameg and DJ iSOP
 
 |#|アーティスト|タイトル|リリース|
 |--:|:--|:--|:--|
-|1|珍沼☆太郎|Intro|2018.8.14|
+|1||Intro||
 |2|Superfly|Hi-Five|2008.4.23|
 |3|斉藤和義|ずっと好きだった|2010.4.21|
 |4|相川七瀬|Sweet Emotion|1997.5.1|
