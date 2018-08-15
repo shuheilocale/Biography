@@ -1,10 +1,23 @@
-# index
+--------------
+New release! <br>
+
+アスタあがあるさ<br>
+<img src="img/aste.jpg" width=30%>>
+
+Special thanks : Toyameg and DJ iSOP
+
+--------------
 
 ## Mix
-* [THREE RUB HALF](#3rub5) (2007.07.30)
-* [アスタあがあるさ](#aste) (2018.08.15)
 
-## THREE RUB HALF
+|タイトル|リリース|ストリーミング|ダウンロード|
+|:--|:--|:--|:--|
+|[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1)|[MP3](https://drive.google.com/open?id=0B3xhRjW0CyDFMFhZaktfVjdkSkU)|
+|[アスタあがあるさ](#aste)|2018.8.15|[SoundCloud](https://soundcloud.com/user-266059752/wpsuv1omfqn0)|[MP3](https://drive.google.com/open?id=13tc1ZuwUUohNrerjvs5rAMz2Hz4GH86C),[MP3 split](https://drive.google.com/open?id=1OA0ApfF102C1kUDTJb-EWEWTEKoLr3NA),[WAV](https://drive.google.com/open?id=19ZeVDxECTVF2bJ3pAij5ZUp3csytJMcW),[WAV split](https://drive.google.com/open?id=1oJLOXDcqnIWZ8fZRPjcCJ-ahbG09L4mG)|
+
+## セットリスト
+
+### THREE RUB HALF
 <a name="3rub5"></a>
 
 ![3rub5](img/3rub5.jpg)
@@ -41,7 +54,7 @@
 |28|はっぴいえんど|風をあつめて|1971.11.20|
 
 
-## アスタがあるさ
+### アスタがあるさ
 <a name="aste"></a>
 
 ![アスタがあるさ](img/aste.jpg)
