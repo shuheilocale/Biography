@@ -146,7 +146,6 @@ Special thanks : Toyameg and iSOP
 
 ### Donation
 
-気に入ったら以下に投銭お願いします。<br>
 If you like, please send me the donation.<br>
 <br>
 BTC : 32YXiUXNyWKwxyBLuarWqmpWtuWwT74t29<br>
