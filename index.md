@@ -12,8 +12,8 @@ Special thanks : Toyameg and iSOP
 
 |タイトル|リリース|ストリーミング|ダウンロード†|
 |:--|:--|:--|:--|
-|[エガパラ](#egapara)|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn)||
-|[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1)|[MP3](https://drive.google.com/open?id=0B3xhRjW0CyDFMFhZaktfVjdkSkU)|
+|[エガパラ](#egapara)|2007.4.12|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn)|
+|[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1)|[MP3](https://drive.google.com/open?0id=0B3xhRjW0CyDFMFhZaktfVjdkSkU)|
 |[アスタがあるさ](#aste) ![NEW!](img/new.png)|2018.8.15|[SoundCloud](https://soundcloud.com/user-266059752/wpsuv1omfqn0)|[MP3](https://drive.google.com/open?id=13tc1ZuwUUohNrerjvs5rAMz2Hz4GH86C)<br>[MP3 split](https://drive.google.com/open?id=1npr-sNMoXvKT-BffAQ9oMfbZzxywWQi3)<br>[WAV](https://drive.google.com/open?id=19ZeVDxECTVF2bJ3pAij5ZUp3csytJMcW)<br>[WAV split](https://drive.google.com/open?id=1iqDUq946eEUjEG8MWUC8me5yfbCxgIBc)|
 
 † splitは曲ごとにトラックが分かれています。
@@ -21,15 +21,42 @@ Special thanks : Toyameg and iSOP
 ## セットリスト
 
 <a name="egapara"></a>
-### エガパラ
+### エガパラ  (1:16:51)
 
 ![egapara](img/egapara.jpg)
 
 |#|アーティスト|タイトル|リリース|
 |--:|:--|:--|:--|
+|1|DREAMS COME TRUE|サンキュ|1995.2.22|
+|2|蓮井朱夏|ZOO 〜愛をください〜|2000.9.7|
+|3|猿岩石|白い雲のように|1996.12.21|
+|4||サボテンの花〜ひとつ屋根の下より〜|1993.4.28|
+|5|キンモクセイ|二人のアカボシ|	2002.1.9|
+|6|松浦亜弥|ドッキドキ!LOVEメール|2001.4.11|
+|7|SMAP|ダイナマイト|1997.2.26|
+|8|JUDY AND MARY|くじら12号|1997.2.21|
+|9|シャ乱Q|ズルい女|1995.5.3|
+|10|大黒摩季|熱くなれ|1996.7.8|
+|11|TRF|CRAZY GONNA CRAZY|1995.1.1|
+|12|野猿|叫び|1998.9.17|
+|13|ブラックビスケッツ|Timing|1998.4.22|
+|14|森高千里|私がオバさんになっても|1992.6.25|
+|15|DEEN|ひとりじゃない|1996.4.15|
+|16|ZARD|Don't You See|1997.1.6|
+|17|桑田佳祐|波乗りジョニー|2001.7.4|
+|18|PUFFY|愛のしるし|1998.3.14|
+|19|小沢健二|愛し愛されて生きるのさ|1994.8.31|
+|20|福山雅治|桜坂|2000.4.26|
+|21|SAMP|オレンジ|2000.8.30|
+|22|CHEMISTRY|PIECES OF A DREAM|2001.3.7|
+|23|槇原敬之|もう恋なんてしない|1992.5.25|
+|24|安室奈美恵|Don't wanna cry|1996.3.13|
+
+
+
 
 <a name="3rub5"></a>
-### THREE RUB HALF
+### THREE RUB HALF (1:18:24)
 
 ![3rub5](img/3rub5.jpg)
 
@@ -65,7 +92,7 @@ Special thanks : Toyameg and iSOP
 |28|はっぴいえんど|風をあつめて|1971.11.20|
 
 <a name="aste"></a>
-### アスタがあるさ
+### アスタがあるさ (2:13:01)
 
 ![アスタがあるさ](img/aste.jpg)
 
