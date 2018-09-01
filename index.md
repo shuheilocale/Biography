@@ -13,10 +13,10 @@ Special thanks : Toyameg and iSOP
 |タイトル|リリース|ストリーミング|ダウンロード†|
 |:--|:--|:--|:--|
 |[batta2](#batta2)|2005.9.9|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/batta2){:target="_blank"}||
-|[エガパラ](#egapara)|2007.4.12|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn)|
-|[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1)|[MP3](https://drive.google.com/open?0id=0B3xhRjW0CyDFMFhZaktfVjdkSkU)|
-|[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi)||
-|[アスタがあるさ](#aste) ![NEW!](img/new.png)|2018.8.15|[SoundCloud](https://soundcloud.com/user-266059752/wpsuv1omfqn0)|[MP3](https://drive.google.com/open?id=13tc1ZuwUUohNrerjvs5rAMz2Hz4GH86C)<br>[MP3 split](https://drive.google.com/open?id=1npr-sNMoXvKT-BffAQ9oMfbZzxywWQi3)<br>[WAV](https://drive.google.com/open?id=19ZeVDxECTVF2bJ3pAij5ZUp3csytJMcW)<br>[WAV split](https://drive.google.com/open?id=1iqDUq946eEUjEG8MWUC8me5yfbCxgIBc)|
+|[エガパラ](#egapara)|2007.4.12|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn){:target="_blank"}|
+|[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1){:target="_blank"}|[MP3](https://drive.google.com/open?0id=0B3xhRjW0CyDFMFhZaktfVjdkSkU){:target="_blank"}|
+|[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi){:target="_blank"}||
+|[アスタがあるさ](#aste) ![NEW!](img/new.png)|2018.8.15|[SoundCloud](https://soundcloud.com/user-266059752/wpsuv1omfqn0){:target="_blank"}|[MP3](https://drive.google.com/open?id=13tc1ZuwUUohNrerjvs5rAMz2Hz4GH86C){:target="_blank"}<br>[MP3 split](https://drive.google.com/open?id=1npr-sNMoXvKT-BffAQ9oMfbZzxywWQi3){:target="_blank"}<br>[WAV](https://drive.google.com/open?id=19ZeVDxECTVF2bJ3pAij5ZUp3csytJMcW){:target="_blank"}<br>[WAV split](https://drive.google.com/open?id=1iqDUq946eEUjEG8MWUC8me5yfbCxgIBc){:target="_blank"}|
 
 † splitは曲ごとにトラックが分かれています。
 
