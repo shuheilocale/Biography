@@ -12,7 +12,7 @@ Special thanks : Toyameg and iSOP
 
 |タイトル|リリース|ストリーミング|ダウンロード†|
 |:--|:--|:--|:--|
-|[batta2](#batta2)|2005.9.9|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/batta2)||
+|[batta2](#batta2)|2005.9.9|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/batta2){:target="_blank"}||
 |[エガパラ](#egapara)|2007.4.12|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn)|
 |[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1)|[MP3](https://drive.google.com/open?0id=0B3xhRjW0CyDFMFhZaktfVjdkSkU)|
 |[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi)||
@@ -23,7 +23,43 @@ Special thanks : Toyameg and iSOP
 ## セットリスト
 
 <a name="batta2"></a>
-### batta2  (::)
+### batta2  (1:19:33)
+
+![batta2](img/batta2.jpg)
+
+|#|アーティスト|タイトル|
+|--:|:--|:--|
+|1|POINT BREAK|DO WE ROCK|
+|2|FIVE|WE WILL ROCK YOU|
+|3|OLYMPIC LIFTS|OLYMPIC LIFTS|
+|4|BAD RONALD|Popcorn Titties|
+|5|BEASTIE BOYS|BODY MOVIN' (Fatboy Slim Remix)|
+|6|BRASSY|I CAN'T WAIT|
+|7|METHODS OF MAYHEM (featuring LIL' KIM|GEORGE CLINTN|MIX MASTE MIKE|FRED DURST)/ GET NAKED|
+|8|X-ECUTIONERS (featuring Rob Zombie, Slug from Atmosphere and Josey Scott)|(Even) More Human Than Human|
+|9|BAGGA BOWNZ|Life's A Bitch|
+|10|FAITH NO MORE & BOO-YAA T.R.I.B.E|ANOTHER BODY MURDERED|
+|11|MINDLESS SELF INDULGENCE|BULLXXXT|
+|12|RAGE AGAINST THE MACHINES|GUERRILA RADIO (Radio Edit)|
+|13|KOTTONMOUTH KINGS|DAY DREAMIN' FAZES|
+|14|PHUNK JUNKEEZ|B-BOY HARD|
+|15|FIST FUNK|BOB YOUR HEAD|
+|16|CROSSCUT|SPIT THE FIRE|
+|17|LINKIN PARK|NUMB|
+|18|DUB WAR|Strike It ("NINE TO SIX" Remix)|
+|19|VELCRA|TEST ANIMALS (THE AMYGDALA Mix)|
+|20|QUEST|KILLAR (Megaherz Remix)|
+|21|WHITE ZOMBIE|BLUR THE TECHNICOLOR (Poker From Stud To Strip Mix)|
+|22|MC LARS|iGENERATION|
+|23|SILMARILS|TANT QUE PARLE L'ECONOMIE|
+|24|WATCHA|DEAD MAN (IS A GOOD MAN)|
+|25|pleymo|NEW WAVE|
+|26|ENHANCER|peu importe|
+|27|2 SKINNEE J'S|LOST & FOUND|
+|28|CREDIT TO THE NATION|one by one|
+|29|Michael Franti & Spearhead w/Gift of Gab|What I Got|
+|30|Grasshopper Takeover|Save Yourself|
+|31| two ball loo|Debu(Demo)|
 
 
 <a name="egapara"></a>
@@ -57,9 +93,6 @@ Special thanks : Toyameg and iSOP
 |22|CHEMISTRY|PIECES OF A DREAM|2001.3.7|
 |23|槇原敬之|もう恋なんてしない|1992.5.25|
 |24|安室奈美恵|Don't wanna cry|1996.3.13|
-
-
-
 
 <a name="3rub5"></a>
 ### THREE RUB HALF (1:18:24)
@@ -98,7 +131,36 @@ Special thanks : Toyameg and iSOP
 |28|はっぴいえんど|風をあつめて|1971.11.20|
 
 <a name="mitsubishi"></a>
-### mitsubishi (::)
+### mitsubishi (1:11:19)
+
+![mitsubishi](img/mitsubishi.jpg)
+
+|#|アーティスト|タイトル|
+|--:|:--|:--|
+|1|Asobi Seksu|Everything Is On |
+|2|Childs|Mariana|
+|3|Caroline|Drove Me To The Wall|
+|4|Mogwai|Acid Food|
+|5|Masha Qrella|I Can't Tell|
+|6|Lily Chou-Chou|アラベスク|
+|7|Juana Molina|El Pastor Mentiroso|
+|8|Bonobo|Days To Come (Feat. Bajka)|
+|9|Tommy Guerrero|No Time For Time|
+|10|This Wil Destroy You|Grandfather Clock|
+|11|4 Bonjour's Parties|Nostalgic Was Broken To Pieces|
+|12|Kazumasa Hashimoto|Drama|
+|13|World's End Girlfriend|Birthday Resistance|
+|14|The Album Leaf|Always For You|
+|15|I Am Robot And Proud|The Work|
+|16|Four Tet|She Moves She|
+|17|Psapp|Tiger, My Friend|
+|18|Mum|Don't Be Afraid, You Have Just Go|
+|19|Spangle Call Lilli Line|Crawl|
+|20|Epic45|River Traffic|
+|21|Toe|C|
+|22|The Player Piano|Milwaukee Mile|
+|23|te'|及ばざる時は速やかに止むるを『智』と言うべし。|
+|24|Envy|Shield Of Selflessness|
 
 
 
