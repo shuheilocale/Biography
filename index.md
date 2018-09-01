@@ -14,6 +14,7 @@ Special thanks : Toyameg and iSOP
 |:--|:--|:--|:--|
 |[エガパラ](#egapara)|2007.4.12|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn)|
 |[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1)|[MP3](https://drive.google.com/open?0id=0B3xhRjW0CyDFMFhZaktfVjdkSkU)|
+|[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi)||
 |[アスタがあるさ](#aste) ![NEW!](img/new.png)|2018.8.15|[SoundCloud](https://soundcloud.com/user-266059752/wpsuv1omfqn0)|[MP3](https://drive.google.com/open?id=13tc1ZuwUUohNrerjvs5rAMz2Hz4GH86C)<br>[MP3 split](https://drive.google.com/open?id=1npr-sNMoXvKT-BffAQ9oMfbZzxywWQi3)<br>[WAV](https://drive.google.com/open?id=19ZeVDxECTVF2bJ3pAij5ZUp3csytJMcW)<br>[WAV split](https://drive.google.com/open?id=1iqDUq946eEUjEG8MWUC8me5yfbCxgIBc)|
 
 † splitは曲ごとにトラックが分かれています。
@@ -90,6 +91,11 @@ Special thanks : Toyameg and iSOP
 |26|スピッツ|チェリー|1996.4.10|
 |27|オリジナル・ラブ|接吻 kiss|1993.11.10|
 |28|はっぴいえんど|風をあつめて|1971.11.20|
+
+
+### mitsubishi (2:13:01)
+
+
 
 <a name="aste"></a>
 ### アスタがあるさ (2:13:01)
