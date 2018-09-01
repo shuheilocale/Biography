@@ -35,7 +35,7 @@ Special thanks : Toyameg and iSOP
 |4|BAD RONALD|Popcorn Titties|
 |5|BEASTIE BOYS|BODY MOVIN' (Fatboy Slim Remix)|
 |6|BRASSY|I CAN'T WAIT|
-|7|METHODS OF MAYHEM (featuring LIL' KIM|GEORGE CLINTN|MIX MASTE MIKE|FRED DURST)/ GET NAKED|
+|7|METHODS OF MAYHEM (featuring LIL' KIM, GEORGE CLINTN, MIX MASTE MIKE, FRED DURST) |GET NAKED|
 |8|X-ECUTIONERS (featuring Rob Zombie, Slug from Atmosphere and Josey Scott)|(Even) More Human Than Human|
 |9|BAGGA BOWNZ|Life's A Bitch|
 |10|FAITH NO MORE & BOO-YAA T.R.I.B.E|ANOTHER BODY MURDERED|
