@@ -12,6 +12,7 @@ Special thanks : Toyameg and iSOP
 
 |タイトル|リリース|ストリーミング|ダウンロード†|
 |:--|:--|:--|:--|
+|[batta2](#batta2)|2005.9.9|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/batta2)||
 |[エガパラ](#egapara)|2007.4.12|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn)|
 |[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1)|[MP3](https://drive.google.com/open?0id=0B3xhRjW0CyDFMFhZaktfVjdkSkU)|
 |[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi)||
@@ -20,6 +21,10 @@ Special thanks : Toyameg and iSOP
 † splitは曲ごとにトラックが分かれています。
 
 ## セットリスト
+
+<a name="batta2"></a>
+### batta2  (::)
+
 
 <a name="egapara"></a>
 ### エガパラ  (1:16:51)
@@ -92,8 +97,8 @@ Special thanks : Toyameg and iSOP
 |27|オリジナル・ラブ|接吻 kiss|1993.11.10|
 |28|はっぴいえんど|風をあつめて|1971.11.20|
 
-
-### mitsubishi (2:13:01)
+<a name="mitsubishi"></a>
+### mitsubishi (::)
 
 
 
