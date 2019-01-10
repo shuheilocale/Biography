@@ -4,7 +4,7 @@
 [アスタがあるさ](https://soundcloud.com/user-266059752/wpsuv1omfqn0)<br>
 ![3rub5](img/aste_thumb.jpg)
 
-Special thanks : Toyameg and iSOP
+Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](https://www.instagram.com/shintaro_nakanuma/)
 
 --------------
 
@@ -216,14 +216,4 @@ Special thanks : Toyameg and iSOP
 |43|H Jungle with t|GOING GOING HOME|1995.7.19|
 |44|ウルフルズ|明日があるさ|2001.2.16|
 |45|小沢健二|天使たちのシーン|1993.9.29|
-
-### Donation
-
-If you like, please send me the donation.<br>
-<br>
-BTC : 32YXiUXNyWKwxyBLuarWqmpWtuWwT74t29<br>
-BCH : 1299aoiFbxuthAMGDM6xAL1uFEkGoRYUFj<br>
-ETH : 0x0c1191e24c473865c8b3708ac392b1468148c88c<br>
-XRP : Tag : 107822031, Addr : rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh<br>
-MONA : MDMUkACaR7PCRgYghjPLAWYVrgWDvYMGMt
 
