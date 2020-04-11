@@ -135,7 +135,7 @@ Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](http
 <a name="freetibetan"></a>
 ### free tibetan (1:05:44)
 
-![freetibetan](img/freetibetan.png)
+![freetibetan](img/freetibetan.jpg)
 
 |#|アーティスト|タイトル|
 |--:|:--|:--|
