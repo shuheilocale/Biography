@@ -134,7 +134,7 @@ Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](http
 <a name="eikk"></a>
 ### EIKK (1:05:44)
 
-![mitsubishi](img/mitsubishi.jpg)
+![eikk](img/eikk.png)
 
 |#|アーティスト|タイトル|
 |--:|:--|:--|
