@@ -4,7 +4,7 @@
 [アスタがあるさ](https://soundcloud.com/user-266059752/wpsuv1omfqn0)<br>
 ![3rub5](img/aste_thumb.jpg)
 
-Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](https://www.isop-info.com/)
+Special thanks : jacket design - [Toyameg](https://www.instagram.com/_toyameg_/) and mastering(and more) - [iSOP](https://www.isop-info.com/)
 
 --------------
 
