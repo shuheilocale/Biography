@@ -15,6 +15,7 @@ Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](http
 |[batta2](#batta2)|2005.9.9|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/batta2){:target="_blank"}||
 |[エガパラ](#egapara)|2007.4.12|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn){:target="_blank"}|
 |[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1){:target="_blank"}||
+|[EIKK](#eikk)|2008.9.20|[SoundCloud](https://soundcloud.com/user-869116356/eikk){:target="_blank"}||
 |[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi){:target="_blank"}||
 |[アスタがあるさ](#aste) ![NEW!](img/new.png)|2018.8.15|[SoundCloud](https://soundcloud.com/user-266059752/wpsuv1omfqn0){:target="_blank"}||
 
@@ -129,6 +130,42 @@ Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](http
 |26|スピッツ|チェリー|1996.4.10|
 |27|オリジナル・ラブ|接吻 kiss|1993.11.10|
 |28|はっぴいえんど|風をあつめて|1971.11.20|
+
+<a name="eikk"></a>
+### EIKK (1:05:44)
+
+![mitsubishi](img/mitsubishi.jpg)
+
+|#|アーティスト|タイトル|
+|--:|:--|:--|
+|1 | CSS | Alala (Bonde Do Role Remix)
+|2 | Bonde Do Role | Gasolina|
+|3 | Northern State | Good Distance|
+|4 | The Stone Roses Vs. Grooveride | Fools Gold (Grooverider Mix)|
+|5 | Tim Deluxe | It Just Won't Do|
+|6 | Sly Mongoose | Snakes And Ladder (Rub N Tug Remix)|
+|7 | Fantastic Plastic Machine | Beautiful Days feat. Yoshie Nakano (EGO-WRAPPIN') & Heaven L. Clayborne|
+|8 | Feist | 1,2,3,4 (Van She Tech Remix)|
+|9 | Basement Jaxx | Red Alert|
+|10| Dragonette | I Get Around (Midnight Juggernauts Remix)|
+|11| Daft Punk | Harder, Better, Faster, Stronger|
+|12| Royksopp | Eple (Boris & Michi's Radio Edit)|
+|13| Junkie XL | No Way|
+|14| Groove Armada | Get Down|
+|15| The Chemical Brothers | Get Yourself Down|
+|16| Freestylers | Beat It Down|
+|17| Fatboy Slim | Champion Sound (Digital Dog Remix)|
+|18| Atomic Hooligan | Head|
+|19| The Prodigy | Girls|
+|20| Olav Basoski feat. Mitchie One | Waterman|
+|21| Wildchild | Renegade Master (Fatboy Slim Old Skool Mix)|
+|22| Incredible Bongo Band | Apache|
+|23| Bloomingdales | Tighten Rap|
+|24| Aldo Vanucci | Big Dogs Rok "Witch Comix" (Mr. Comicstore Remix)|
+|25| Daft Punk | digital Love|
+|26| Kylie Minogue | Wow|
+|27| Hellogoodbye | Here (In Your Arms) (Tommie Sunshine Robots Up Radio Remix)|
+
 
 <a name="mitsubishi"></a>
 ### mitsubishi (1:11:19)
