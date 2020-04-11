@@ -18,6 +18,7 @@ Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](http
 |[free tibetan](#freetibetan)|2008.8.20|[SoundCloud](https://soundcloud.com/user-869116356/free-tibetan){:target="_blank"}||
 |[EIKK](#eikk)|2008.9.20|[SoundCloud](https://soundcloud.com/user-869116356/eikk){:target="_blank"}||
 |[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi){:target="_blank"}||
+|[fukita](#fukita)|2011.xx.xx|[SoundCloud](https://soundcloud.com/user-869116356/fukita){:target="_blank"}||
 |[アスタがあるさ](#aste) ![NEW!](img/new.png)|2018.8.15|[SoundCloud](https://soundcloud.com/user-266059752/wpsuv1omfqn0){:target="_blank"}||
 
 † splitは曲ごとにトラックが分かれています。
@@ -133,7 +134,7 @@ Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](http
 |28|はっぴいえんど|風をあつめて|1971.11.20|
 
 <a name="freetibetan"></a>
-### free tibetan (1:05:44)
+### free tibetan (1:05:46)
 
 ![freetibetan](img/freetibetan.jpg)
 
@@ -235,6 +236,14 @@ Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](http
 |23|te'|及ばざる時は速やかに止むるを『智』と言うべし。|
 |24|Envy|Shield Of Selflessness|
 
+<a name="fukita"></a>
+### fukita (1:19:51)
+
+![fukita](img/fukita.jpg)
+
+|#|アーティスト|タイトル|
+|--:|:--|:--|
+|x|xxx |
 
 
 <a name="aste"></a>
