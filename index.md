@@ -15,6 +15,7 @@ Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](http
 |[batta2](#batta2)|2005.9.9|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/batta2){:target="_blank"}||
 |[エガパラ](#egapara)|2007.4.12|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn){:target="_blank"}|
 |[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1){:target="_blank"}||
+|[free tibetan](#freetibetan)|2008.8.20|[SoundCloud](https://soundcloud.com/user-869116356/free-tibetan){:target="_blank"}||
 |[EIKK](#eikk)|2008.9.20|[SoundCloud](https://soundcloud.com/user-869116356/eikk){:target="_blank"}||
 |[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi){:target="_blank"}||
 |[アスタがあるさ](#aste) ![NEW!](img/new.png)|2018.8.15|[SoundCloud](https://soundcloud.com/user-266059752/wpsuv1omfqn0){:target="_blank"}||
@@ -130,6 +131,41 @@ Special thanks : [Toyameg](https://www.instagram.com/_toyameg_/) and [iSOP](http
 |26|スピッツ|チェリー|1996.4.10|
 |27|オリジナル・ラブ|接吻 kiss|1993.11.10|
 |28|はっぴいえんど|風をあつめて|1971.11.20|
+
+<a name="freetibetan"></a>
+### free tibetan (1:05:44)
+
+![freetibetan](img/freetibetan.png)
+
+|#|アーティスト|タイトル|
+|--:|:--|:--|
+|1| Sublime | What I Got (Total Access Mix) |
+|2| Jimmy Cliff | The Harder They Come |
+|3| Tenna Star | Lifestyles Of The Rich & Famous |
+|4| Ruffnexx | Stick By Me |
+|5| Sean Kingston | Me Love |
+|6| Aaron Carter | To All The Girl |
+|7| Speech | Cruisin' In My Sper Beetle |
+|8| Insolence | Blue Sky |
+|9|Skindread | We Want |
+|10| The Cat Empire | Days Like These |
+|11| Big Dog | Around Myself |
+|12| OPM | El Captan (Soulchild Remix) |
+|13| Kottonmouth Kings | Live To Day |
+|14| Ugly Duckling | Turn It UP |
+|15| The Pharcyde | Soul Flower (Remix) |
+|16| Beastie Boys | Body Movin' (Fatboy Slim Remix) |
+|17| Halfby | Halfbeat |
+|18| Jack Johnson | The 3 R's |
+|19| Jason Mraz -I'm Yours |
+|20| Colbie Caillat | Feeling Show |
+|21| Tristan Prettyman | Love Love Love |
+|22| Brooke | Coming Home |
+|23| Natasha Thomas | It's Over Now (Remix) |
+|24| Fountains Of Wayne | Stacy's Mom |
+|25| Maroon 5 | Won't Go Home Without you |
+
+
 
 <a name="eikk"></a>
 ### EIKK (1:05:44)
