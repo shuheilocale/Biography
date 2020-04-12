@@ -4,7 +4,7 @@
 [アスタがあるさ](https://soundcloud.com/user-266059752/wpsuv1omfqn0)<br>
 ![3rub5](img/aste_thumb.jpg)
 
-Special thanks : art by [Toyameg](https://www.instagram.com/_toyameg_/) and mastering(and more) by [iSOP](https://www.isop-info.com/)
+Special thanks : art by [Toyameg](https://www.instagram.com/_toyameg_/){:target="_blank"} and mastering(and more) by [iSOP](https://www.isop-info.com/){:target="_blank"}
 
 --------------
 
@@ -15,7 +15,7 @@ Special thanks : art by [Toyameg](https://www.instagram.com/_toyameg_/) and mast
 |[batta2](#batta2)|2005.9.9|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/batta2){:target="_blank"}||
 |[エガパラ](#egapara)|2007.4.12|[SoundCloud](https://soundcloud.com/user-282021944/plmhpiepabgn){:target="_blank"}|
 |[THREE RUB HALF](#3rub5)|2007.7.30|[SoundCloud](https://soundcloud.com/shuheiyamamotojapan/3rub5-1){:target="_blank"}||
-|[free tibetan](#freetibetan)|2008.8.20|[SoundCloud](https://soundcloud.com/user-869116356/free-tibetan){:target="_blank"}||
+|[free tibetan](#freetibetan)|2008.7.28|[SoundCloud](https://soundcloud.com/user-869116356/free-tibetan){:target="_blank"}||
 |[EIKK](#eikk)|2008.9.20|[SoundCloud](https://soundcloud.com/user-869116356/eikk){:target="_blank"}||
 |[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi){:target="_blank"}||
 |[fukita](#fukita)|2011.2.13|[SoundCloud](https://soundcloud.com/user-869116356/fukita){:target="_blank"}||
