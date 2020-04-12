@@ -4,7 +4,7 @@
 [アスタがあるさ](https://soundcloud.com/user-266059752/wpsuv1omfqn0)<br>
 ![3rub5](img/aste_thumb.jpg)
 
-Special thanks : jacket design - [Toyameg](https://www.instagram.com/_toyameg_/) and mastering(and more) - [iSOP](https://www.isop-info.com/)
+Special thanks : art by [Toyameg](https://www.instagram.com/_toyameg_/) and mastering(and more) by [iSOP](https://www.isop-info.com/)
 
 --------------
 
@@ -18,7 +18,7 @@ Special thanks : jacket design - [Toyameg](https://www.instagram.com/_toyameg_/)
 |[free tibetan](#freetibetan)|2008.8.20|[SoundCloud](https://soundcloud.com/user-869116356/free-tibetan){:target="_blank"}||
 |[EIKK](#eikk)|2008.9.20|[SoundCloud](https://soundcloud.com/user-869116356/eikk){:target="_blank"}||
 |[mitsubishi](#mitsubishi)|2010.11.16|[SoundCloud](https://soundcloud.com/user-282021944/mitsubishi){:target="_blank"}||
-|[fukita](#fukita)|2011.xx.xx|[SoundCloud](https://soundcloud.com/user-869116356/fukita){:target="_blank"}||
+|[fukita](#fukita)|2011.2.13|[SoundCloud](https://soundcloud.com/user-869116356/fukita){:target="_blank"}||
 |[アスタがあるさ](#aste) ![NEW!](img/new.png)|2018.8.15|[SoundCloud](https://soundcloud.com/user-266059752/wpsuv1omfqn0){:target="_blank"}||
 
 † splitは曲ごとにトラックが分かれています。
@@ -243,7 +243,36 @@ Special thanks : jacket design - [Toyameg](https://www.instagram.com/_toyameg_/)
 
 |#|アーティスト|タイトル|
 |--:|:--|:--|
-|x|xxx |
+|1|The Beautiful Girls | Weight Of The World  |
+|2|Lily Allen | Smile  |
+|3|Phoenix | if I ever feel better|
+|4|Just Jack | Starz In Their Eyes  |
+|5|元気ロケッツ | Heavenly Star  |
+|6|Orson | No Tomorrow|
+|7|MGMT | Kids  |
+|8|De De Mouse | 悠久の風(migratory birds mix)  |
+|9|FreeTEMPO | Prelude|
+|10|YUKI | JOY  |
+|11|Bent Fabric | Jukebox  |
+|12|The Ting Tings | Great DJ|
+|13|Black kids | I'm Not Gonna Teach Your Boyfriend How To Dance With You|
+|14|Perfume vs SMAP | ワンルーム・ムコウ(Maeda Boo-Chopp Remix)|
+|15|capluse | Sugarless GiRL  |
+|16|COLTEMONIKHA | NAMAIKI(extended mix)|
+|17|Kaleidoscopio | Meu Sonho(Star Guitar Remix)|
+|18|Fantastic Plastic Machine feat. Monkey Magic | Without You|
+|19|m-flo | come again(Tokyo Cafe Remix)|
+|20|東京スカパラダイスオーケストラ feat. 奥田民生 | 美しく燃える森(FPM bootleg house mix)|
+|21|Maroon 5 | Makes Me Wonder  |
+|22|The Cardigans | Lovefool  |
+|23|HALCALI | 愛|
+|24|HALFBY | Cosmic Night Run (HALF & HALFBY MIX)  |
+|25|TGMX | HOT FAN IN ONE SUMMER DAY|
+|26|Corinne Bailey Rae | Put Your Records On  |
+|27|Jack Johnson | Flake|
+|28|Des'ree | Your Gatta Be(Love Will Save The Day Remix)  |
+|29|Harvard | Clean & Dirty|
+|30|Plug Ins | Don't Look Back In Anger (Down Beat Mix)|
 
 
 <a name="aste"></a>
