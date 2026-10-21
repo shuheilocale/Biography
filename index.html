@@ -443,7 +443,7 @@ footer {
 </dialog>
 
 <!-- mixes.js を更新したら ?v= の数字を上げる（ブラウザに古いデータを使わせないため） -->
-<script src="mixes.js?v=3"></script>
+<script src="mixes.js?v=4"></script>
 <script>
 (function () {
   var mixes = window.MIXES.slice().sort(function (a, b) { return toTime(b.date) - toTime(a.date); });
@@ -500,6 +500,8 @@ footer {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
+  // 英語表示では titleEn があればそちらを使う
+  function name(m) { return lang === 'en' && m.titleEn || m.title; }
   function fitClass(m) { return m.jacketFit === 'left' ? ' class="fit-left"' : ''; }
   // 地色の明るさで文字色を決める
   function inkFor(hex) {
@@ -555,11 +557,11 @@ footer {
     document.getElementById('latest').innerHTML =
       '<div class="latest-art">' +
         disc(latest) +
-        '<img src="' + esc(latest.jacket) + '" alt="' + esc(T.jacket(latest.title)) + '"' + fitClass(latest) + '>' +
+        '<img src="' + esc(latest.jacket) + '" alt="' + esc(T.jacket(name(latest))) + '"' + fitClass(latest) + '>' +
       '</div>' +
       '<div class="latest-meta">' +
         '<p class="when">' + T.latest + ' / ' + T.date(latest.date) + '</p>' +
-        '<h2>' + esc(latest.title) + '</h2>' +
+        '<h2>' + esc(name(latest)) + '</h2>' +
         '<p class="facts">' + fmtLength(latest.length) + T.sep + T.tracks(latest.tracks.length) + '</p>' +
         (latest.credits ? '<p class="credits">' + latest.credits + '</p>' : '') +
         '<div class="actions">' +
@@ -570,13 +572,13 @@ footer {
 
     // 一覧
     document.getElementById('grid').innerHTML = mixes.map(function (m) {
-      return '<li class="card' + (shown[m.id] ? ' is-out' : '') + '" data-id="' + esc(m.id) + '"><button type="button" data-open="' + esc(m.id) + '" aria-label="' + esc(T.openCard(m.title)) + '">' +
+      return '<li class="card' + (shown[m.id] ? ' is-out' : '') + '" data-id="' + esc(m.id) + '"><button type="button" data-open="' + esc(m.id) + '" aria-label="' + esc(T.openCard(name(m))) + '">' +
         '<div class="art">' +
           disc(m) +
           '<img src="' + esc(m.jacket) + '" alt="" loading="lazy"' + fitClass(m) + '>' +
         '</div>' +
         '<div class="info">' +
-          '<span class="title">' + esc(m.title) + '</span>' +
+          '<span class="title">' + esc(name(m)) + '</span>' +
           '<span class="length">' + esc(m.length) + '</span>' +
           '<span class="sub">' + T.date(m.date) + T.sep + T.tracks(m.tracks.length) + '</span>' +
         '</div>' +
@@ -594,18 +596,20 @@ footer {
       '&color=%232b3fd6&auto_play=false&show_artwork=false&show_comments=false&show_reposts=false&visual=false';
     body.innerHTML =
       '<div class="sheet-side">' +
-        '<img src="' + esc(m.jacket) + '" alt="' + esc(T.jacket(m.title)) + '"' + fitClass(m) + '>' +
+        '<img src="' + esc(m.jacket) + '" alt="' + esc(T.jacket(name(m))) + '"' + fitClass(m) + '>' +
         '<p class="when">' + T.date(m.date) + '</p>' +
-        '<h2 id="detail-title">' + esc(m.title) + '</h2>' +
+        '<h2 id="detail-title">' + esc(name(m)) + '</h2>' +
         '<p class="facts">' + esc(m.length) + T.sep + T.tracks(m.tracks.length) + '</p>' +
         (m.credits ? '<p class="credits">' + m.credits + '</p>' : '') +
         '<div class="actions"><a class="btn btn-primary" href="' + esc(m.soundcloud) + '" target="_blank" rel="noopener">' + playIcon + T.openSc + '</a></div>' +
       '</div>' +
       '<div>' +
-        '<div class="player"><iframe title="' + esc(T.player(m.title)) + '" loading="lazy" allow="autoplay" src="' + player + '"></iframe></div>' +
+        '<div class="player"><iframe title="' + esc(T.player(name(m))) + '" loading="lazy" allow="autoplay" src="' + player + '"></iframe></div>' +
         '<ol class="tracklist">' + m.tracks.map(function (t) {
-          return '<li><span class="song">' + esc(t[1]) +
-            (t[0] ? '<span class="artist">' + esc(t[0]) + '</span>' : '') + '</span>' +
+          var artist = lang === 'en' && t[3] || t[0];
+          var song = lang === 'en' && t[4] || t[1];
+          return '<li><span class="song">' + esc(song) +
+            (artist ? '<span class="artist">' + esc(artist) + '</span>' : '') + '</span>' +
             '<span class="year">' + (hasYear && t[2] ? esc(t[2].slice(0, 4)) : '') + '</span></li>';
         }).join('') + '</ol>' +
       '</div>';
