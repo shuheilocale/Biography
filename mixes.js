@@ -1,4 +1,5 @@
 // ミックスの一覧。新しいミックスを追加するときは、この配列の末尾に1件足す。
+// label はレコードのセンターラベルの色（省略時はクリーム色）。
 // jacket が横長（表＋裏の見開き）の場合は jacketFit: "left" で左半分（表ジャケ）だけを見せる。
 window.MIXES = [
   {
@@ -8,6 +9,7 @@ window.MIXES = [
     length: "1:19:33",
     soundcloud: "https://soundcloud.com/shuheiyamamotojapan/batta2",
     jacket: "img/batta2.jpg",
+    label: "#3aa53a",
     tracks: [
       ["POINT BREAK", "DO WE ROCK"],
       ["FIVE", "WE WILL ROCK YOU"],
@@ -49,6 +51,7 @@ window.MIXES = [
     length: "1:16:51",
     soundcloud: "https://soundcloud.com/user-282021944/plmhpiepabgn",
     jacket: "img/egapara.jpg",
+    label: "#e0532c",
     tracks: [
       ["DREAMS COME TRUE", "サンキュ", "1995.2.22"],
       ["蓮井朱夏", "ZOO 〜愛をください〜", "2000.9.7"],
@@ -83,6 +86,7 @@ window.MIXES = [
     length: "1:18:24",
     soundcloud: "https://soundcloud.com/shuheiyamamotojapan/3rub5-1",
     jacket: "img/3rub5.jpg",
+    label: "#f1efe9",
     tracks: [
       ["山崎まさよし", "セロリ", "1996.9.1"],
       ["小沢健二", "ラブリー", "1994.11.23"],
@@ -121,6 +125,7 @@ window.MIXES = [
     length: "1:05:46",
     soundcloud: "https://soundcloud.com/user-869116356/free-tibetan",
     jacket: "img/freetibetan.jpg",
+    label: "#e8e2d2",
     tracks: [
       ["Sublime", "What I Got (Total Access Mix)"],
       ["Jimmy Cliff", "The Harder They Come"],
@@ -156,6 +161,7 @@ window.MIXES = [
     length: "1:05:44",
     soundcloud: "https://soundcloud.com/user-869116356/eikk",
     jacket: "img/eikk.png",
+    label: "#ee4f8e",
     tracks: [
       ["CSS", "Alala (Bonde Do Role Remix)"],
       ["Bonde Do Role", "Gasolina"],
@@ -193,6 +199,7 @@ window.MIXES = [
     length: "1:11:19",
     soundcloud: "https://soundcloud.com/user-282021944/mitsubishi",
     jacket: "img/mitsubishi.jpg",
+    label: "#e9e4c9",
     jacketFit: "left",
     tracks: [
       ["Asobi Seksu", "Everything Is On"],
@@ -228,6 +235,7 @@ window.MIXES = [
     length: "1:19:51",
     soundcloud: "https://soundcloud.com/user-869116356/fukita",
     jacket: "img/fukita.jpg",
+    label: "#2a46c4",
     jacketFit: "left",
     tracks: [
       ["The Beautiful Girls", "Weight Of The World"],
@@ -269,6 +277,7 @@ window.MIXES = [
     length: "2:13:01",
     soundcloud: "https://soundcloud.com/user-266059752/wpsuv1omfqn0",
     jacket: "img/aste.jpg",
+    label: "#f0d3c6",
     credits: "Art by <a href=\"https://www.instagram.com/_toyameg_/\" target=\"_blank\" rel=\"noopener\">Toyameg</a> / Mastering (and more) by <a href=\"https://open.spotify.com/intl-ja/artist/2veZngTjg4oDhnArmFzPys\" target=\"_blank\" rel=\"noopener\">iSOP</a>",
     tracks: [
       ["", "Intro"],

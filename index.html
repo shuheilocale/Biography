@@ -116,39 +116,56 @@ a { color: inherit; }
     repeating-radial-gradient(circle, #161618 0 1px, #222226 1.5px 2.5px);
   box-shadow: inset 0 0 0 1px var(--vinyl-rim, rgba(255,255,255,.1)), 0 18px 36px -24px rgba(0,0,0,.6);
 }
-/* センターラベル（ジャケット画像を流用）とスピンドル穴 */
-.disc::before,
+/* センターラベル：紙の地色＋印刷の細い円＋文字。穴は ::after で一番上に重ねる */
+.label {
+  position: absolute;
+  inset: 33%;
+  border-radius: 50%;
+  container-type: inline-size;
+  background:
+    radial-gradient(circle, transparent 0 13%, currentColor 13.5% 14%, transparent 14.5% 86%, currentColor 86.5% 87.5%, transparent 88%),
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,.22), transparent 60%),
+    var(--label-bg, #efe9dc);
+  color: var(--label-ink, #1b1c20);
+  box-shadow: 0 0 0 2px #0f0f11, inset 0 0 0 1px rgba(0,0,0,.15);
+}
+.label > * {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: var(--font-display);
+  line-height: 1;
+  white-space: nowrap;
+}
+.label .brand { top: 22%; font-weight: 900; font-stretch: 125%; font-size: 15cqw; letter-spacing: -.04em; }
+/* 穴の左右に振り分ける */
+.label .side { top: 46.5%; display: flex; justify-content: space-between; padding: 0 17%; font-weight: 700; font-size: 6.5cqw; }
+.label .year { bottom: 22%; font-weight: 600; font-size: 7cqw; letter-spacing: .04em; opacity: .8; }
 .disc::after {
   content: "";
   position: absolute;
+  inset: 48.7%;
   border-radius: 50%;
-}
-.disc::before {
-  inset: 34%;
-  background: var(--label) var(--label-pos, center) / cover;
-  box-shadow: 0 0 0 2px #0f0f11;
-}
-.disc::after {
-  inset: 48.6%;
   background: var(--case);
 }
 
 /* ---------- latest release ---------- */
 .latest {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
   gap: clamp(28px, 6vw, 96px);
   align-items: center;
   padding: clamp(48px, 8vw, 120px) var(--gutter);
 }
 .latest-art {
   position: relative;
-  width: min(100%, 520px);
+  /* 右側はレコードがラベルまで出てくる分の余白 */
+  width: min(64%, 480px);
   aspect-ratio: 1;
-  margin-right: 22%;
 }
 .latest-art .disc {
-  transform: translateX(34%) rotate(0deg);
+  transform: translateX(66%) rotate(0deg);
   animation: slide-out 1.4s cubic-bezier(.2, .7, .1, 1) .3s both;
 }
 .latest-art img {
@@ -159,8 +176,8 @@ a { color: inherit; }
   box-shadow: 0 1px 0 rgba(0,0,0,.05), 0 30px 60px -30px rgba(0,0,0,.45);
 }
 @keyframes slide-out {
-  from { transform: translateX(0) rotate(-120deg); }
-  to   { transform: translateX(34%) rotate(0deg); }
+  from { transform: translateX(0) rotate(-220deg); }
+  to   { transform: translateX(66%) rotate(0deg); }
 }
 .latest-meta { min-width: 0; }
 .latest-meta .when { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
@@ -168,7 +185,7 @@ a { color: inherit; }
   margin: 0;
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: clamp(36px, 6vw, 76px);
+  font-size: clamp(32px, 4.4vw, 64px);
   line-height: 1.1;
   letter-spacing: -.02em;
 }
@@ -218,7 +235,7 @@ a { color: inherit; }
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(36px, 4vw, 56px) clamp(16px, 3vw, 40px);
 }
 .card button {
@@ -230,7 +247,7 @@ a { color: inherit; }
 .card .art {
   position: relative;
   aspect-ratio: 1;
-  margin-right: 12%;
+  margin-right: 36%;
 }
 .card .disc { transition: transform .5s cubic-bezier(.2, .7, .1, 1); }
 .card img {
@@ -243,7 +260,7 @@ a { color: inherit; }
 }
 .card img.fit-left { object-position: left center; }
 .card button:hover .disc,
-.card button:focus-visible .disc { transform: translateX(28%) rotate(40deg); }
+.card button:focus-visible .disc { transform: translateX(70%) rotate(25deg); }
 .card button:focus-visible { outline: none; }
 .card button:focus-visible img { outline: 3px solid var(--marker); outline-offset: 4px; }
 .card .info {
@@ -251,7 +268,7 @@ a { color: inherit; }
   grid-template-columns: 1fr auto;
   gap: 2px 12px;
   margin-top: 16px;
-  margin-right: 12%;
+  margin-right: 36%;
 }
 .card .title {
   font-family: var(--font-display);
@@ -354,12 +371,10 @@ footer {
 }
 
 /* ---------- responsive ---------- */
-@media (max-width: 1000px) {
-  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
 @media (max-width: 760px) {
   .latest { grid-template-columns: 1fr; }
-  .latest-art { width: 78%; margin-right: 0; }
+  .latest-art { width: 60%; }
+  .card .art, .card .info { margin-right: 0; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .sheet { grid-template-columns: 1fr; }
   .sheet-side { position: static; display: grid; grid-template-columns: 120px 1fr; gap: 0 16px; align-items: end; padding-right: 48px; }
@@ -412,7 +427,8 @@ footer {
   <div class="sheet" id="detail-body"></div>
 </dialog>
 
-<script src="mixes.js"></script>
+<!-- mixes.js を更新したら ?v= の数字を上げる（ブラウザに古いデータを使わせないため） -->
+<script src="mixes.js?v=2"></script>
 <script>
 (function () {
   var mixes = window.MIXES.slice().sort(function (a, b) { return toTime(b.date) - toTime(a.date); });
@@ -470,9 +486,19 @@ footer {
     });
   }
   function fitClass(m) { return m.jacketFit === 'left' ? ' class="fit-left"' : ''; }
+  // 地色の明るさで文字色を決める
+  function inkFor(hex) {
+    var n = parseInt(hex.slice(1), 16);
+    var lum = 0.299 * (n >> 16) + 0.587 * (n >> 8 & 255) + 0.114 * (n & 255);
+    return lum > 150 ? '#1b1c20' : '#f6f4ee';
+  }
   function disc(m) {
-    return '<div class="disc" aria-hidden="true" style="--label: url(\'' + esc(m.jacket) + '\')' +
-      (m.jacketFit === 'left' ? '; --label-pos: left center' : '') + '"></div>';
+    var bg = m.label || '#efe9dc';
+    return '<div class="disc" aria-hidden="true"><div class="label" style="--label-bg: ' + esc(bg) + '; --label-ink: ' + inkFor(bg) + '">' +
+      '<span class="brand">shuhei</span>' +
+      '<div class="side"><span>SIDE A</span><span>33⅓</span></div>' +
+      '<span class="year">' + esc(m.date.slice(0, 4)) + '</span>' +
+    '</div></div>';
   }
   var playIcon = '<svg viewBox="0 0 10 12" aria-hidden="true"><path d="M0 0l10 6-10 6z"/></svg>';
 
