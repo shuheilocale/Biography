@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>shuhei — DJ mixes</title>
+<meta name="description" content="shuhei の DJ ミックス集（2005–2018）。セットリストと SoundCloud へのリンク。">
+<meta property="og:title" content="shuhei — DJ mixes">
+<meta property="og:description" content="shuhei の DJ ミックス集（2005–2018）">
+<meta property="og:image" content="https://shuheilocale.github.io/Biography/img/aste.jpg">
+<meta name="theme-color" content="#e4e6e9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --case: #e4e6e9;
+  --case-deep: #d5d8dc;
+  --ink: #15171c;
+  --muted: #5f646e;
+  --line: rgba(21, 23, 28, .14);
+  --marker: #2b3fd6;
+  --paper: #fbfbfa;
+  --font-display: "Archivo", "Zen Kaku Gothic New", sans-serif;
+  --font-body: "Zen Kaku Gothic New", "Hiragino Sans", sans-serif;
+  --gutter: clamp(16px, 4vw, 48px);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --case: #17181c;
+    --case-deep: #202227;
+    --ink: #eceef1;
+    --muted: #9aa0aa;
+    --line: rgba(236, 238, 241, .14);
+    --marker: #8c9bff;
+    --paper: #1d1f24;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--case);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--marker); outline-offset: 3px; }
+
+/* ---------- header ---------- */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 18px var(--gutter);
+  font-size: 14px;
+  color: var(--muted);
+}
+.site-header a { text-decoration: none; }
+.site-header a:hover { color: var(--ink); }
+
+/* ---------- wordmark ---------- */
+.wordmark {
+  margin: 0;
+  padding: 0 var(--gutter);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-stretch: 125%;
+  font-size: clamp(64px, 21vw, 340px);
+  line-height: .82;
+  letter-spacing: -.045em;
+  text-transform: lowercase;
+}
+.tagline {
+  margin: 18px var(--gutter) 0;
+  padding-top: 12px;
+  border-top: 2px solid var(--ink);
+  color: var(--muted);
+  font-size: 15px;
+  text-align: right;
+}
+.site-nav { display: flex; align-items: center; gap: 20px; }
+.lang { display: flex; gap: 2px; }
+.lang button {
+  min-width: 36px;
+  min-height: 32px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font: 700 13px/1 var(--font-display);
+  cursor: pointer;
+}
+.lang button:hover { color: var(--ink); }
+.lang button[aria-pressed="true"] { background: var(--ink); color: var(--case); }
+
+/* ---------- disc (shared) ---------- */
+.disc {
+  position: absolute;
+  inset: 3%;
+  border-radius: 50%;
+  /* ヴァイナル：上から光の反射、溝、盤面の順に重ねる */
+  background:
+    conic-gradient(from 35deg, transparent 0 6%, rgba(255,255,255,.16) 11%, transparent 17% 50%, rgba(255,255,255,.12) 59%, transparent 66%),
+    radial-gradient(circle, transparent 0 34%, rgba(255,255,255,.07) 34.5% 35%, transparent 35.5% 97%, rgba(255,255,255,.08) 97.5% 98%, transparent 98.5%),
+    repeating-radial-gradient(circle, #161618 0 1px, #222226 1.5px 2.5px);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.1), 0 18px 36px -24px rgba(0,0,0,.6);
+}
+/* センターラベル（ジャケット画像を流用）とスピンドル穴 */
+.disc::before,
+.disc::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+.disc::before {
+  inset: 34%;
+  background: var(--label) var(--label-pos, center) / cover;
+  box-shadow: 0 0 0 2px #0f0f11;
+}
+.disc::after {
+  inset: 48.6%;
+  background: var(--case);
+}
+
+/* ---------- latest release ---------- */
+.latest {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: clamp(28px, 6vw, 96px);
+  align-items: center;
+  padding: clamp(48px, 8vw, 120px) var(--gutter);
+}
+.latest-art {
+  position: relative;
+  width: min(100%, 520px);
+  aspect-ratio: 1;
+  margin-right: 22%;
+}
+.latest-art .disc {
+  transform: translateX(34%) rotate(0deg);
+  animation: slide-out 1.4s cubic-bezier(.2, .7, .1, 1) .3s both;
+}
+.latest-art img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 1px 0 rgba(0,0,0,.05), 0 30px 60px -30px rgba(0,0,0,.45);
+}
+@keyframes slide-out {
+  from { transform: translateX(0) rotate(-120deg); }
+  to   { transform: translateX(34%) rotate(0deg); }
+}
+.latest-meta { min-width: 0; }
+.latest-meta .when { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
+.latest-meta h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(36px, 6vw, 76px);
+  line-height: 1.1;
+  letter-spacing: -.02em;
+}
+.latest-meta .facts { margin: 16px 0 0; color: var(--muted); }
+.latest-meta .credits { margin: 20px 0 0; font-size: 14px; color: var(--muted); max-width: 40ch; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 22px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  font: 700 15px/1 var(--font-body);
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-primary { background: var(--ink); color: var(--case); }
+.btn:hover { background: var(--marker); border-color: var(--marker); color: #fff; }
+.btn svg { width: 14px; height: 14px; fill: currentColor; }
+
+/* ---------- discography ---------- */
+.discography { padding: 0 var(--gutter) clamp(64px, 10vw, 140px); }
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 12px 0;
+  border-top: 2px solid var(--ink);
+  margin-bottom: clamp(28px, 4vw, 48px);
+}
+.section-head h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-stretch: 125%;
+  font-size: clamp(22px, 3vw, 32px);
+  letter-spacing: -.02em;
+}
+
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(36px, 4vw, 56px) clamp(16px, 3vw, 40px);
+}
+.card button {
+  all: unset;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+.card .art {
+  position: relative;
+  aspect-ratio: 1;
+  margin-right: 12%;
+}
+.card .disc { transition: transform .5s cubic-bezier(.2, .7, .1, 1); }
+.card img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--paper);
+  box-shadow: 0 18px 36px -22px rgba(0,0,0,.5);
+}
+.card img.fit-left { object-position: left center; }
+.card button:hover .disc,
+.card button:focus-visible .disc { transform: translateX(28%) rotate(40deg); }
+.card button:focus-visible { outline: none; }
+.card button:focus-visible img { outline: 3px solid var(--marker); outline-offset: 4px; }
+.card .info {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 12px;
+  margin-top: 16px;
+  margin-right: 12%;
+}
+.card .title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(16px, 1.6vw, 20px);
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+.card .length, .card .sub { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.card .length { padding-top: 3px; }
+.card .sub { grid-column: 1 / -1; }
+
+/* ---------- detail dialog ---------- */
+dialog {
+  width: min(1040px, calc(100% - 2 * var(--gutter)));
+  max-height: calc(100dvh - 2 * var(--gutter));
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 40px 100px -30px rgba(0,0,0,.55);
+}
+dialog::backdrop { background: rgba(15, 17, 22, .6); backdrop-filter: blur(6px); }
+dialog[open] { animation: rise .35s cubic-bezier(.2, .7, .1, 1); }
+@keyframes rise { from { opacity: 0; transform: translateY(24px); } }
+.sheet {
+  display: grid;
+  grid-template-columns: minmax(0, 360px) minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 48px);
+  padding: clamp(20px, 4vw, 48px);
+}
+.sheet-side { align-self: start; position: sticky; top: 0; }
+.sheet-side img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+.sheet-side img.fit-left { object-position: left center; }
+.sheet-side .when { margin: 16px 0 0; color: var(--muted); font-size: 14px; }
+.sheet-side h2 {
+  margin: 2px 0 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.1;
+  letter-spacing: -.02em;
+}
+.sheet-side .facts { margin: 8px 0 0; color: var(--muted); font-size: 14px; }
+.sheet-side .credits { margin: 12px 0 0; color: var(--muted); font-size: 13px; }
+.sheet-side .actions { margin-top: 20px; }
+.player { margin: 0 0 24px; }
+.player iframe { display: block; width: 100%; height: 120px; border: 0; }
+.tracklist { list-style: none; margin: 0; padding: 0; counter-reset: t; }
+.tracklist li {
+  counter-increment: t;
+  display: grid;
+  grid-template-columns: 2.4em minmax(0, 1fr) auto;
+  gap: 0 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.45;
+}
+.tracklist li::before {
+  content: counter(t);
+  color: var(--muted);
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.tracklist .song { font-weight: 700; overflow-wrap: anywhere; }
+.tracklist .artist { display: block; font-weight: 400; color: var(--muted); font-size: 14px; }
+.tracklist .year { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.close {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  height: 0;
+}
+.close button {
+  margin: 12px 12px 0 0;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+.close button:hover { background: var(--marker); color: #fff; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px var(--gutter) 40px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1000px) {
+  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .latest { grid-template-columns: 1fr; }
+  .latest-art { width: 78%; margin-right: 0; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sheet { grid-template-columns: 1fr; }
+  .sheet-side { position: static; display: grid; grid-template-columns: 120px 1fr; gap: 0 16px; align-items: end; padding-right: 48px; }
+  .sheet-side img { grid-row: span 3; }
+  .sheet-side .when { margin-top: 0; }
+  .sheet-side .credits, .sheet-side .actions { grid-column: 1 / -1; }
+  dialog { width: 100%; max-width: 100%; max-height: 100dvh; height: 100dvh; border-radius: 0; margin: 0; }
+}
+@media (max-width: 420px) {
+  .card .length { grid-column: 1 / -1; padding-top: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <span>DJ mixes</span>
+  <nav class="site-nav">
+    <a href="#mixes" data-i18n="navMixes">ミックス一覧</a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="ja" lang="ja">JA</button>
+      <button type="button" data-lang="en" lang="en">EN</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <h1 class="wordmark">shuhei</h1>
+  <p class="tagline" id="span-years"></p>
+
+  <section class="latest" id="latest"></section>
+
+  <section class="discography" id="mixes">
+    <div class="section-head">
+      <h2>Mixes</h2>
+    </div>
+    <ul class="grid" id="grid"></ul>
+  </section>
+</main>
+
+<footer>
+  <span>&copy; shuhei yamamoto</span>
+  <a href="#" data-i18n="toTop">ページの先頭へ</a>
+</footer>
+
+<dialog id="detail" aria-labelledby="detail-title">
+  <div class="close"><button type="button" id="detail-close">&times;</button></div>
+  <div class="sheet" id="detail-body"></div>
+</dialog>
+
+<script src="mixes.js"></script>
+<script>
+(function () {
+  var mixes = window.MIXES.slice().sort(function (a, b) { return toTime(b.date) - toTime(a.date); });
+  var byId = {};
+  mixes.forEach(function (m) { byId[m.id] = m; });
+
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var TEXT = {
+    ja: {
+      navMixes: 'ミックス一覧',
+      toTop: 'ページの先頭へ',
+      close: '閉じる',
+      latest: '最新リリース',
+      listen: 'SoundCloudで聴く',
+      openSc: 'SoundCloudで開く',
+      setlist: 'セットリストを見る',
+      jacket: function (t) { return t + ' のジャケット'; },
+      openCard: function (t) { return t + ' のセットリストを開く'; },
+      player: function (t) { return t + ' のプレイヤー'; },
+      date: function (d) { var p = d.split('.'); return p[0] + '年' + +p[1] + '月' + +p[2] + '日'; },
+      length: function (h, m) { return (h ? h + '時間' : '') + m + '分'; },
+      tracks: function (n) { return n + '曲'; },
+      sep: '、',
+      span: function (from, to, n) { return from + '–' + to + '年 / ' + n + '本'; }
+    },
+    en: {
+      navMixes: 'Mixes',
+      toTop: 'Back to top',
+      close: 'Close',
+      latest: 'Latest release',
+      listen: 'Listen on SoundCloud',
+      openSc: 'Open in SoundCloud',
+      setlist: 'View setlist',
+      jacket: function (t) { return 'Cover art for ' + t; },
+      openCard: function (t) { return 'Open setlist for ' + t; },
+      player: function (t) { return t + ' player'; },
+      date: function (d) { var p = d.split('.'); return MONTHS[p[1] - 1] + ' ' + +p[2] + ', ' + p[0]; },
+      length: function (h, m) { return (h ? h + 'h ' : '') + m + 'm'; },
+      tracks: function (n) { return n + (n === 1 ? ' track' : ' tracks'); },
+      sep: ', ',
+      span: function (from, to, n) { return from + '–' + to + ' / ' + n + ' mixes'; }
+    }
+  };
+
+  var lang = 'ja';
+  try { lang = localStorage.getItem('lang') || ''; } catch (e) { lang = ''; }
+  if (!TEXT[lang]) lang = /^ja\b/i.test(navigator.language || '') ? 'ja' : 'en';
+  var T = TEXT[lang];
+
+  function toTime(d) { var p = d.split('.'); return new Date(+p[0], p[1] - 1, +p[2]).getTime(); }
+  function fmtLength(l) { var p = l.split(':').map(Number); return T.length(p[0], p[1]); }
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function fitClass(m) { return m.jacketFit === 'left' ? ' class="fit-left"' : ''; }
+  function disc(m) {
+    return '<div class="disc" aria-hidden="true" style="--label: url(\'' + esc(m.jacket) + '\')' +
+      (m.jacketFit === 'left' ? '; --label-pos: left center' : '') + '"></div>';
+  }
+  var playIcon = '<svg viewBox="0 0 10 12" aria-hidden="true"><path d="M0 0l10 6-10 6z"/></svg>';
+
+  var dialog = document.getElementById('detail');
+  var body = document.getElementById('detail-body');
+  var opener = null;
+  var openId = null;
+
+  function render() {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-i18n]').forEach(function (el) { el.textContent = T[el.getAttribute('data-i18n')]; });
+    document.querySelectorAll('[data-lang]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-lang') === lang));
+    });
+    document.getElementById('detail-close').setAttribute('aria-label', T.close);
+    document.getElementById('latest').setAttribute('aria-label', T.latest);
+
+    var years = mixes.map(function (m) { return m.date.slice(0, 4); });
+    document.getElementById('span-years').textContent = T.span(years[years.length - 1], years[0], mixes.length);
+
+    // 最新リリース
+    var latest = mixes[0];
+    document.getElementById('latest').innerHTML =
+      '<div class="latest-art">' +
+        disc(latest) +
+        '<img src="' + esc(latest.jacket) + '" alt="' + esc(T.jacket(latest.title)) + '"' + fitClass(latest) + '>' +
+      '</div>' +
+      '<div class="latest-meta">' +
+        '<p class="when">' + T.latest + ' / ' + T.date(latest.date) + '</p>' +
+        '<h2>' + esc(latest.title) + '</h2>' +
+        '<p class="facts">' + fmtLength(latest.length) + T.sep + T.tracks(latest.tracks.length) + '</p>' +
+        (latest.credits ? '<p class="credits">' + latest.credits + '</p>' : '') +
+        '<div class="actions">' +
+          '<a class="btn btn-primary" href="' + esc(latest.soundcloud) + '" target="_blank" rel="noopener">' + playIcon + T.listen + '</a>' +
+          '<button class="btn" type="button" data-open="' + esc(latest.id) + '">' + T.setlist + '</button>' +
+        '</div>' +
+      '</div>';
+
+    // 一覧
+    document.getElementById('grid').innerHTML = mixes.map(function (m) {
+      return '<li class="card"><button type="button" data-open="' + esc(m.id) + '" aria-label="' + esc(T.openCard(m.title)) + '">' +
+        '<div class="art">' +
+          disc(m) +
+          '<img src="' + esc(m.jacket) + '" alt="" loading="lazy"' + fitClass(m) + '>' +
+        '</div>' +
+        '<div class="info">' +
+          '<span class="title">' + esc(m.title) + '</span>' +
+          '<span class="length">' + esc(m.length) + '</span>' +
+          '<span class="sub">' + T.date(m.date) + T.sep + T.tracks(m.tracks.length) + '</span>' +
+        '</div>' +
+      '</button></li>';
+    }).join('');
+  }
+
+  // 詳細
+  function open(id, fromHash) {
+    var m = byId[id];
+    if (!m) return;
+    openId = id;
+    var hasYear = m.tracks.some(function (t) { return t[2]; });
+    var player = 'https://w.soundcloud.com/player/?url=' + encodeURIComponent(m.soundcloud) +
+      '&color=%232b3fd6&auto_play=false&show_artwork=false&show_comments=false&show_reposts=false&visual=false';
+    body.innerHTML =
+      '<div class="sheet-side">' +
+        '<img src="' + esc(m.jacket) + '" alt="' + esc(T.jacket(m.title)) + '"' + fitClass(m) + '>' +
+        '<p class="when">' + T.date(m.date) + '</p>' +
+        '<h2 id="detail-title">' + esc(m.title) + '</h2>' +
+        '<p class="facts">' + esc(m.length) + T.sep + T.tracks(m.tracks.length) + '</p>' +
+        (m.credits ? '<p class="credits">' + m.credits + '</p>' : '') +
+        '<div class="actions"><a class="btn btn-primary" href="' + esc(m.soundcloud) + '" target="_blank" rel="noopener">' + playIcon + T.openSc + '</a></div>' +
+      '</div>' +
+      '<div>' +
+        '<div class="player"><iframe title="' + esc(T.player(m.title)) + '" loading="lazy" allow="autoplay" src="' + player + '"></iframe></div>' +
+        '<ol class="tracklist">' + m.tracks.map(function (t) {
+          return '<li><span class="song">' + esc(t[1]) +
+            (t[0] ? '<span class="artist">' + esc(t[0]) + '</span>' : '') + '</span>' +
+            '<span class="year">' + (hasYear && t[2] ? esc(t[2].slice(0, 4)) : '') + '</span></li>';
+        }).join('') + '</ol>' +
+      '</div>';
+    if (!fromHash) history.replaceState(null, '', '#' + m.id);
+    if (!dialog.open) dialog.showModal();
+    dialog.scrollTop = 0;
+  }
+
+  document.addEventListener('click', function (e) {
+    var l = e.target.closest('[data-lang]');
+    if (l) {
+      lang = l.getAttribute('data-lang');
+      T = TEXT[lang];
+      try { localStorage.setItem('lang', lang); } catch (err) { /* 保存できなくても切り替えは効く */ }
+      render();
+      if (openId) open(openId, true);
+      return;
+    }
+    var t = e.target.closest('[data-open]');
+    if (t) { opener = t; open(t.getAttribute('data-open')); }
+  });
+  document.getElementById('detail-close').addEventListener('click', function () { dialog.close(); });
+  dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });
+  dialog.addEventListener('close', function () {
+    body.innerHTML = '';
+    openId = null;
+    history.replaceState(null, '', location.pathname + location.search);
+    if (opener && opener.isConnected) opener.focus();
+  });
+
+  render();
+
+  // 旧ページのアンカー（#batta2 など）で直接開けるようにする
+  var hash = decodeURIComponent(location.hash.slice(1));
+  if (byId[hash]) open(hash, true);
+})();
+</script>
+</body>
+</html>
