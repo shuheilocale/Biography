@@ -8,7 +8,8 @@
 <meta property="og:title" content="shuhei — DJ mixes">
 <meta property="og:description" content="shuhei の DJ ミックスリスト（2005–2018）">
 <meta property="og:image" content="https://shuheilocale.github.io/Biography/img/aste.jpg">
-<meta name="theme-color" content="#e4e6e9">
+<meta name="theme-color" content="#e4e6e9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#2c2f36" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
@@ -28,13 +29,14 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --case: #17181c;
-    --case-deep: #202227;
+    --case: #2c2f36;
+    --case-deep: #353841;
     --ink: #eceef1;
     --muted: #9aa0aa;
     --line: rgba(236, 238, 241, .14);
     --marker: #8c9bff;
-    --paper: #1d1f24;
+    --paper: #24272d;
+    --vinyl-rim: rgba(255, 255, 255, .22);
     color-scheme: dark;
   }
 }
@@ -112,7 +114,7 @@ a { color: inherit; }
     conic-gradient(from 35deg, transparent 0 6%, rgba(255,255,255,.16) 11%, transparent 17% 50%, rgba(255,255,255,.12) 59%, transparent 66%),
     radial-gradient(circle, transparent 0 34%, rgba(255,255,255,.07) 34.5% 35%, transparent 35.5% 97%, rgba(255,255,255,.08) 97.5% 98%, transparent 98.5%),
     repeating-radial-gradient(circle, #161618 0 1px, #222226 1.5px 2.5px);
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.1), 0 18px 36px -24px rgba(0,0,0,.6);
+  box-shadow: inset 0 0 0 1px var(--vinyl-rim, rgba(255,255,255,.1)), 0 18px 36px -24px rgba(0,0,0,.6);
 }
 /* センターラベル（ジャケット画像を流用）とスピンドル穴 */
 .disc::before,
