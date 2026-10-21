@@ -238,6 +238,11 @@ a { color: inherit; }
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(36px, 4vw, 56px) clamp(16px, 3vw, 40px);
 }
+.card {
+  /* 回転したレコードの外接四角で横スクロールが出ないように切る。フォーカス枠ぶんは残す */
+  overflow: clip;
+  overflow-clip-margin: 8px;
+}
 .card button {
   all: unset;
   display: block;
@@ -247,7 +252,7 @@ a { color: inherit; }
 .card .art {
   position: relative;
   aspect-ratio: 1;
-  margin-right: 36%;
+  margin-right: 39%;
 }
 .card .disc { transition: transform .5s cubic-bezier(.2, .7, .1, 1); }
 .card img {
@@ -268,7 +273,7 @@ a { color: inherit; }
   grid-template-columns: 1fr auto;
   gap: 2px 12px;
   margin-top: 16px;
-  margin-right: 36%;
+  margin-right: 39%;
 }
 .card .title {
   font-family: var(--font-display);
@@ -371,11 +376,20 @@ footer {
 }
 
 /* ---------- responsive ---------- */
+/* 一覧のレコードは必ず自分のカードの右余白の中に収める（隣の作品に重ねない） */
+@media (max-width: 900px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .grid { grid-template-columns: 1fr; }
+}
+/* タッチ端末はカーソルを乗せられないので、最初からレコードを出しておく */
+@media (hover: none) {
+  .card .disc { transform: translateX(70%) rotate(25deg); }
+}
 @media (max-width: 760px) {
   .latest { grid-template-columns: 1fr; }
   .latest-art { width: 60%; }
-  .card .art, .card .info { margin-right: 0; }
-  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .sheet { grid-template-columns: 1fr; }
   .sheet-side { position: static; display: grid; grid-template-columns: 120px 1fr; gap: 0 16px; align-items: end; padding-right: 48px; }
   .sheet-side img { grid-row: span 3; }
@@ -428,7 +442,7 @@ footer {
 </dialog>
 
 <!-- mixes.js を更新したら ?v= の数字を上げる（ブラウザに古いデータを使わせないため） -->
-<script src="mixes.js?v=2"></script>
+<script src="mixes.js?v=3"></script>
 <script>
 (function () {
   var mixes = window.MIXES.slice().sort(function (a, b) { return toTime(b.date) - toTime(a.date); });
