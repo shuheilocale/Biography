@@ -383,9 +383,10 @@ footer {
 @media (max-width: 560px) {
   .grid { grid-template-columns: 1fr; }
 }
-/* タッチ端末はカーソルを乗せられないので、最初からレコードを出しておく */
+/* タッチ端末はカーソルを乗せられないので、画面に入ったときに出す（.is-out は JS が付ける） */
 @media (hover: none) {
-  .card .disc { transform: translateX(70%) rotate(25deg); }
+  .card .disc { transition-duration: 1.2s; }
+  .card.is-out .disc { transform: translateX(70%) rotate(25deg); }
 }
 @media (max-width: 760px) {
   .latest { grid-template-columns: 1fr; }
@@ -516,6 +517,22 @@ footer {
   }
   var playIcon = '<svg viewBox="0 0 10 12" aria-hidden="true"><path d="M0 0l10 6-10 6z"/></svg>';
 
+  // タッチ端末では、カードが画面に入ったらレコードを出す（一度出したら出しっぱなし）
+  var shown = {};
+  var touch = window.matchMedia('(hover: none)').matches;
+  var observer = touch && 'IntersectionObserver' in window ? new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      e.target.classList.add('is-out');
+      shown[e.target.getAttribute('data-id')] = true;
+      observer.unobserve(e.target);
+    });
+  }, { threshold: 0.6 }) : null;
+  function watchCards() {
+    if (!observer) return;
+    document.querySelectorAll('.card:not(.is-out)').forEach(function (c) { observer.observe(c); });
+  }
+
   var dialog = document.getElementById('detail');
   var body = document.getElementById('detail-body');
   var opener = null;
@@ -553,7 +570,7 @@ footer {
 
     // 一覧
     document.getElementById('grid').innerHTML = mixes.map(function (m) {
-      return '<li class="card"><button type="button" data-open="' + esc(m.id) + '" aria-label="' + esc(T.openCard(m.title)) + '">' +
+      return '<li class="card' + (shown[m.id] ? ' is-out' : '') + '" data-id="' + esc(m.id) + '"><button type="button" data-open="' + esc(m.id) + '" aria-label="' + esc(T.openCard(m.title)) + '">' +
         '<div class="art">' +
           disc(m) +
           '<img src="' + esc(m.jacket) + '" alt="" loading="lazy"' + fitClass(m) + '>' +
@@ -604,6 +621,7 @@ footer {
       T = TEXT[lang];
       try { localStorage.setItem('lang', lang); } catch (err) { /* 保存できなくても切り替えは効く */ }
       render();
+      watchCards();
       if (openId) open(openId, true);
       return;
     }
@@ -620,6 +638,7 @@ footer {
   });
 
   render();
+  watchCards();
 
   // 旧ページのアンカー（#batta2 など）で直接開けるようにする
   var hash = decodeURIComponent(location.hash.slice(1));
