@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -410,7 +410,7 @@ footer {
 <header class="site-header">
   <span>DJ mixes</span>
   <nav class="site-nav">
-    <a href="#mixes" data-i18n="navMixes">ミックスリスト</a>
+    <a href="#mixes" data-i18n="navMixes">Mixes</a>
     <div class="lang" role="group" aria-label="Language">
       <button type="button" data-lang="ja" lang="ja">JA</button>
       <button type="button" data-lang="en" lang="en">EN</button>
@@ -434,7 +434,7 @@ footer {
 
 <footer>
   <span>&copy; shuhei yamamoto</span>
-  <a href="#" data-i18n="toTop">ページの先頭へ</a>
+  <a href="#" data-i18n="toTop">Back to top</a>
 </footer>
 
 <dialog id="detail" aria-labelledby="detail-title">
@@ -490,7 +490,8 @@ footer {
 
   var lang = 'ja';
   try { lang = localStorage.getItem('lang') || ''; } catch (e) { lang = ''; }
-  if (!TEXT[lang]) lang = /^ja\b/i.test(navigator.language || '') ? 'ja' : 'en';
+  // 未選択なら英語で表示する
+  if (!TEXT[lang]) lang = 'en';
   var T = TEXT[lang];
 
   function toTime(d) { var p = d.split('.'); return new Date(+p[0], p[1] - 1, +p[2]).getTime(); }
